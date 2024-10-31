@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Recipe Book</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333; 
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #ff6f61; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin: 0;
+        }
+        h2 {
+            color: #ff6f61; 
+        }
+        a {
+            color: #4a90e2; 
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .contents {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contents li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f7f7f7; /* Light grey for headers */
+        }
+        ul {
+            list-style-type: square; /* Square bullets */
+            padding-left: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Recipe Book</h1>
+    
+    <div class="container">
+        <h2>Contents:</h2>
+        <ol class="contents">
+            <li><a href="#recipe1">Tacos de Carne Asada</a></li>
+            <li><a href="#recipe2">Classic Spaghetti Bolognese</a></li>
+        </ol>
+        
+        <h2 id="recipe1">Tacos de Carne Asada</h2>
+        
+        <ul>
+            <li>Time: 45 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Flank Steak</td>
+                    <td>1 lb (450g)</td>
+                </tr>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>2 tablespoons</td>
+                </tr>
+                <tr>
+                    <td>Lime Juice</td>
+                    <td>1/4 cup</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>3 cloves, minced</td>
+                </tr>
+                <tr>
+                    <td>Ground Cumin</td>
+                    <td>1 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Chili Powder</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>1 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Pepper</td>
+                    <td>1/2 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Fresh Cilantro</td>
+                    <td>1/4 cup, chopped</td>
+                </tr>
+                <tr>
+                    <td>Tortillas</td>
+                    <td>8 small</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1, chopped</td>
+                </tr>
+                <tr>
+                    <td>Cilantro (for garnish)</td>
+                    <td>1/4 cup, chopped</td>
+                </tr>
+                <tr>
+                    <td>Lime Wedges</td>
+                    <td>For serving</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Marinate the flank steak with olive oil, lime juice, garlic, cumin, chili powder, salt, and pepper. Refrigerate for at least 30 minutes.</p>
+        <p><strong>Step 2:</strong> Preheat a grill or grill pan over medium-high heat. Cook the steak for 5-7 minutes per side, or until desired doneness.</p>
+        <p><strong>Step 3:</strong> Remove the steak from the grill and let it rest for 5 minutes. Slice thinly against the grain.</p>
+        <p><strong>Step 4:</strong> Warm the tortillas on the grill or in a dry skillet.</p>
+        <p><strong>Step 5:</strong> Serve the sliced steak in tortillas with chopped onion, fresh cilantro, and lime wedges.</p>
+        
+        <p><em>Source: <a href="https://www.loveandlemons.com/carne-asada-tacos/" target="_blank">Love and Lemons</a></em></p>
+        
+        <h2 id="recipe2">Classic Spaghetti Bolognese</h2>
+        
+        <ul>
+            <li>Time: 45 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ground Beef</td>
+                    <td>500g</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1 large, chopped</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>2 cloves, minced</td>
+                </tr>
+                <tr>
+                    <td>Tomato Sauce</td>
+                    <td>400g</td>
+                </tr>
+                <tr>
+                    <td>Tomato Paste</td>
+                    <td>2 tablespoons</td>
+                </tr>
+                <tr>
+                    <td>Beef Broth</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Italian Seasoning</td>
+                    <td>1 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>1/2 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Pepper</td>
+                    <td>1/4 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Spaghetti</td>
+                    <td>400g</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Cook the ground beef in a large skillet over medium heat until browned. Drain excess fat.</p>
+        <p><strong>Step 2:</strong> Add the chopped onion and garlic, and cook until softened.</p>
+        <p><strong>Step 3:</strong> Stir in tomato sauce, tomato paste, beef broth, Italian seasoning, salt, and pepper. Simmer for 20 minutes.</p>
+        <p><strong>Step 4:</strong> Meanwhile, cook spaghetti according to package instructions. Drain.</p>
+        <p><strong>Step 5:</strong> Serve the sauce over the spaghetti.</p>
+        
+        <p><em>Source: <a href="https://www.simplyrecipes.com/recipes/spaghetti_bolognese/" target="_blank">Simply Recipes</a></em></p>
+    </div>
+</body>
+</html>
